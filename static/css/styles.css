@@ -47,7 +47,8 @@ body:before {
 }
 
 body.inner-page {
-  background: var(--almost-black) url("../images/map-bg--dark.jpg") center center no-repeat;
+  background-color: var(--almost-black);
+  background: url('../images/map-bg--dark.jpg') center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -394,7 +395,8 @@ article.section {
 
 .section--light {
   color: var(--true-black);
-  background: var(--tan) url('../images/map-bg--light.jpg') center top no-repeat;
+  background-color: var(--tan);
+  background: url('../images/map-bg--light.jpg') center top no-repeat;
   background-size: cover;
 }
 
